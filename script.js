@@ -13,6 +13,6 @@ form.addEventListener('submit', (e) => {
 		resultDiv.innerHTML = 'Baby';
 		window.location.href = nextPageUrl; // Redirect to new page
 	} else {
-		resultDiv.innerHTML = 'Naa Tum meri baby nhi hoo kon hooo tum kaha hai meri Varshanjali';
+		resultDiv.innerHTML = 'Naa Tum meri baby nhi hoo kon hooo tum kaha hai mera Krishna';
 	}
 });
