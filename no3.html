@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ask Her Out</title>
+
+    <link rel="stylesheet" href="main.css" />
+  </head>
+  <body>
+    <div class="container">
+      <!-- Embedded GIF -->
+      <div
+        class="tenor-gif-embed"
+        data-postid="15974530976611222074"
+        data-share-method="host"
+        data-aspect-ratio="1.26923"
+        data-width="100%"
+      >
+        <a
+          href="https://tenor.com/view/peach-goma-phone-gif-15974530976611222074"
+          >Peach Goma Phone Sticker</a
+        >from
+        <a href="https://tenor.com/search/peach+goma-stickers"
+          >Peach Goma Stickers</a
+        >
+      </div>
+      <script
+        type="text/javascript"
+        async
+        src="https://tenor.com/embed.js"
+      ></script>
+
+      <!-- Headline and Message -->
+      <h1>Maan Ja Na! Kitna Bhav Khaega??? 🥺</h1>
+      <p>Bas Ek Baar "Yes" Bol De Naa 🥹❤️</p>
+
+      <!-- Shayari Section -->
+      <div id="shayari">
+        Tumhara ek 'Yes' zindagi bana dega,  
+        Bas ek baar dil ki baat sun lo ❤️.
+      </div>
+
+      <!-- Buttons -->
+      <div class="btn">
+        <a id="yesButton" href="yes.html">Yes</a>
+        <a id="noButton" href="#">No</a>
+        <a id="newButton" href="burst-heart.html" style="top: 100px; left: 250px;"
+          >Special Secret</a
+        >
+      </div>
+    </div>
+
+    <!-- JavaScript for Dynamic Shayari -->
+    <script>
+      const shayaris = [
+        "Tumhara ek 'Yes' zindagi bana dega, Bas ek baar dil ki baat sun lo ❤️.",
+        "Tere bina dil ke armaan adhoore hain, Bas ek 'Yes' se poore ho jayenge. 🥺",
+        "Maan ja, ab zidd chhodo, Zindagi tumhare bina adhuri lagti hai. 🌸",
+        "Tumhara ek muskaan kaafi hai, Dil ka har dard mitane ke liye. ❤️"
+      ];
+
+      let currentIndex = 0;
+
+      setInterval(() => {
+        currentIndex = (currentIndex + 1) % shayaris.length;
+        document.getElementById("shayari").textContent = shayaris[currentIndex];
+      }, 4000); // Changes the shayari every 4 seconds
+    </script>
+    <script src="main.js"></script>
+  </body>
+</html>

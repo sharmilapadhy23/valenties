@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ask Her Out</title>
+    <link rel="stylesheet" href="main.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div
+        class="tenor-gif-embed"
+        data-postid="15195810"
+        data-share-method="host"
+        data-aspect-ratio="1"
+        data-width="100%"
+      >
+        <a
+          href="https://tenor.com/view/couple-forgive-me-asking-for-forgiveness-begging-crying-gif-15195810"
+          >Couple Forgive Me Sticker</a
+        >
+        from
+        <a href="https://tenor.com/search/couple-stickers">Couple Stickers</a>
+      </div>
+      <script
+        type="text/javascript"
+        async
+        src="https://tenor.com/embed.js"
+      ></script>
+
+      <h1>Ek Aur Baar Soch Le 😭🫶🏻</h1>
+      <p>Do You Love Me??? Yes Bol 😭🥹</p>
+
+      <div id="shayari">
+        Tumhari har ek baat dil ko chu jati hai,  
+        Bas yeh baat kehne ki himmat kab aaegi? ❤️
+      </div>
+
+      <div class="btn">
+        <a id="yesButton2" href="yes.html">Yes</a>
+        <a id="noButton2" href="no3.html">No</a>
+      </div>
+    </div>
+
+    <script>
+      // JavaScript to update live shayari dynamically
+      const shayaris = [
+        "Tumhari har ek baat dil ko chu jati hai, Bas yeh baat kehne ki himmat kab aaegi? ❤️",
+        "Tumse milkar laga yeh sapna hai, Tumhare bina ab rehna muskil hai. 🌸",
+        "Ek pal ke liye bhi nazar tumse hatti nahi, Dil ko tumhari zarurat kam nahi hoti. 🥺",
+        "Tum ho toh har din rang biranga lagta hai, Tumhare bina sab suna suna lagta hai. 🌹"
+      ];
+
+      let currentIndex = 0;
+
+      setInterval(() => {
+        currentIndex = (currentIndex + 1) % shayaris.length;
+        document.getElementById("shayari").textContent = shayaris[currentIndex];
+      }, 4000); // Change shayari every 4 seconds
+    </script>
+    <script src="main.js"></script>
+  </body>
+</html>
